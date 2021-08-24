@@ -10,10 +10,9 @@ public class TestSuite {
     public void test1() {
         // System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver_v92.exe");
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver_mac_v92");
-		WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
-		//Please write your code here
-        System.out.println("Hello world");
+        //Please write your code here
 
         driver.close();
     }
